@@ -1,4 +1,4 @@
 # unity-banana
 ### Banana, fetch!
 
-[[images/banana-init.gif]]
+![banana init gif](images/banana-init.gif)
