@@ -3,9 +3,9 @@
 Parameters used in the DQN training funtion:
 
 Max number of steps per episode: 1000\
-Epsilon start: 1.0\
-Epsilon end: 0.01\
-Epsilon decay rate: 0.999
+* Epsilon start: 1.0\
+* Epsilon end: 0.01\
+* Epsilon decay rate: 0.999
 
 Episode 100	Average Score: 0.07  
 Episode 200	Average Score: 0.73  
