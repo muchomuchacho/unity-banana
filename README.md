@@ -6,9 +6,7 @@
 
 ## Project Details
 
-The goal is to train an agent to collect as many yellow bananas as possible in a
-limited amount of steps while avoiding the blue ones along the way. The goal is
-to achieve a score of at least `13` in the fewer number of episodes possible.
+The objective is to train an agent that is able to receive an average reward of at least `13` in the fewer number of episodes possible by collecting yellow bananas, while avoiding the blue ones along the way.
 
 The following are the details of the environment used in this project.
 
