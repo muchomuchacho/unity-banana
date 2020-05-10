@@ -1,6 +1,8 @@
 import argh
 import torch
 import numpy as np
+
+from argh import arg
 from collections import deque
 from unityagents import UnityEnvironment
 from dqn_agent import Agent
@@ -66,6 +68,7 @@ def dqn(agent, env, brain_name, n_episodes=2500, max_t=1000, eps_start=1.0,
     return scores
 
 
+@arg('--chkp', help='Checkpoint file. If present, agen will run in eval mode.')
 def runner(chkp=None):
     '''
     This function loads the environment and the agent. By default runs in
