@@ -40,3 +40,15 @@ Episode 2434	Average Score: 13.09
 ![0999](images/results_0999.png)
 
 ---
+Episode 100	Average Score: 0.43\
+Episode 200	Average Score: 2.62\
+Episode 300	Average Score: 5.29\
+Episode 400	Average Score: 7.83\
+Episode 500	Average Score: 9.73\
+Episode 600	Average Score: 11.17\
+Episode 700	Average Score: 12.74\
+Episode 714	Average Score: 13.02\
+
+`Environment solved in 614 episodes!	Average Score: 13.02`
+
+![0997](images/results_0997.png)
