@@ -78,23 +78,31 @@ def runner(chkp=None):
     ======
         chkp (None|file): file containing a checkpoint saved during training.
     '''
+    # instantiate Unity environment
     env = UnityEnvironment(file_name="Banana_Linux/Banana.x86_64")
+    # get first brain
     brain_name = env.brain_names[0]
     brain = env.brains[brain_name]
     env_info = env.reset(train_mode=True)[brain_name]
     action_size = brain.vector_action_space_size
     state = env_info.vector_observations[0]
     state_size = len(state)
+    # instantiate the Agent using the state_size and action_size computed above
     agent = Agent(state_size=state_size, action_size=action_size, seed=0)
 
+    # if a checkpoint is passed, go into eval mode
     if chkp:
         checkpoint = torch.load(chkp)
+        # load the weights from a pretrained network
         agent.qnetwork_local.load_state_dict(checkpoint)
         agent.qnetwork_target.load_state_dict(checkpoint)
 
+        # run eval
         dqn(agent, env, brain_name, n_episodes=100, train=False)
 
+    # run training
     dqn(agent, env, brain_name, train=True)
+    env.close()
 
 
 if __name__ == '__main__':
