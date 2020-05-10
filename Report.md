@@ -24,7 +24,8 @@ Episode 2100	Average Score: 12.13
 Episode 2200	Average Score: 11.89  
 Episode 2300	Average Score: 11.82  
 Episode 2400	Average Score: 11.90  
-Episode 2434	Average Score: 13.09  
+Episode 2434	Average Score: 13.09
+
 Environment solved in 2334 episodes!	Average Score: 13.09  
 
 ![0999](images/results_0999.png)
