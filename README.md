@@ -6,10 +6,10 @@
 
 ## Getting started
 
-Visit the following link for instructions on how to set up your environment: [instructions](https://github.com/udacity/deep-reinforcement-learning#dependencies)\
-Run `pip install -r requirements.txt`, using the virtual environment setup in teh previous step, to install the remaining of the required dependencies.
+1. Visit the following link for instructions on how to set up your environment: [instructions](https://github.com/udacity/deep-reinforcement-learning#dependencies)\
+2. Run `pip install -r requirements.txt`, using the virtual environment setup in teh previous step, to install the remaining of the required dependencies.
 
-The environment included in this repository is for the Linux platform only. See
+3. The environment included in this repository is for the Linux platform only. See
 below for environments for other platforms:
 
 Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana.app.zip)\
