@@ -4,10 +4,30 @@
 ![banana](images/banana-init.gif)
 
 
-## Getting started
+## Project Details
+
+The goal is to train an agent to collect as many yellow bananas as possible in a
+limited amount of steps while avoiding the blue ones along the way. The goal is
+to achieve a score of at least `13` in the fewer number of episodes possible.
+
+The following are the details of the environment used in this project.
+
+```
+Unity brain name: BananaBrain
+        Number of Visual Observations (per agent): 0
+        Vector Observation space type: continuous
+        Vector Observation space size (per agent): 37
+        Number of stacked Vector Observation: 1
+        Vector Action space type: discrete
+        Vector Action space size (per agent): 4
+        Vector Action descriptions: , , ,
+```
+
+
+## Getting Started
 
 1. Visit the following link for instructions on how to set up your environment: [instructions](https://github.com/udacity/deep-reinforcement-learning#dependencies)\
-2. Run `pip install -r requirements.txt`, using the virtual environment setup in teh previous step, to install the remaining of the required dependencies.
+2. Run `pip install -r requirements.txt`, using the virtual environment created in the previous step, to install the remaining of the required dependencies.
 
 3. The environment included in this repository is for the Linux platform only. See
 below for environments for other platforms:
