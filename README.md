@@ -17,10 +17,10 @@ Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/
 
 ## Instructions
 
-Once the requirements detailed above are satisfied run the following command to
-train the Agent:
+- Once the requirements detailed above are satisfied run the following command to
+train the Agent:\
 `python banana_finder.py`
-To run the Agent in eval mode we need to pass a checkpoint file as a CLI
+- To run the Agent in eval mode we need to pass a checkpoint file as a CLI
 argument.
-Run the following command for further details:
+- Run the following command for further details:\
 `python banana_finder.py -h`
