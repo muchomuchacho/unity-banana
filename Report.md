@@ -7,7 +7,7 @@ Max number of steps per episode: 1000
 * Epsilon end: 0.01
 * Epsilon decay rate: 0.999
 
-## Results
+## Results (eps_decay=0.999)
 
 Episode 100	Average Score: 0.07  
 Episode 200	Average Score: 0.73  
@@ -39,7 +39,8 @@ Episode 2434	Average Score: 13.09
 
 ![0999](images/results_0999.png)
 
----
+## Results (eps_decay=0.997)
+
 Episode 100	Average Score: 0.43\
 Episode 200	Average Score: 2.62\
 Episode 300	Average Score: 5.29\
