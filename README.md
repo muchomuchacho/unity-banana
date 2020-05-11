@@ -28,7 +28,7 @@ As we can see above the state space is continuous and has `37 dimensions`. The
 
 ## Getting Started
 
-1. Visit the following link for instructions on how to set up your environment: [instructions](https://github.com/udacity/deep-reinforcement-learning#dependencies)\
+1. Visit the following link for instructions on how to set up your environment: [instructions](https://github.com/udacity/deep-reinforcement-learning#dependencies)
 2. Run `pip install -r requirements.txt`, using the virtual environment created in the previous step, to install the remaining of the required dependencies.
 
 3. The environment included in this repository is for the Linux platform only. See
