@@ -47,3 +47,5 @@ train the Agent:\
 argument.
 - Run the following command for further details:\
 `python banana_finder.py -h`
+
+- It is also possible to run the code using a jupyter notebook if that adds any clarity to the process. Please cheack out the [Navigation](https://github.com/muchomuchacho/unity-banana/blob/master/Navigation.ipynb) notebook.
