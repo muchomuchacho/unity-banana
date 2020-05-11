@@ -99,9 +99,10 @@ def runner(chkp=None):
 
         # run eval
         dqn(agent, env, brain_name, n_episodes=100, train=False)
-
-    # run training
-    dqn(agent, env, brain_name, train=True)
+    else:
+        # run training
+        dqn(agent, env, brain_name, train=True)
+        
     env.close()
 
 
