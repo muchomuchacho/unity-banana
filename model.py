@@ -16,7 +16,6 @@ class QNetwork(nn.Module):
         """
         super(QNetwork, self).__init__()
         self.seed = torch.manual_seed(seed)
-        "*** YOUR CODE HERE ***"
         self.net = nn.Sequential(
             nn.Linear(state_size, fc1_units),
             nn.ReLU(),
