@@ -1,5 +1,4 @@
-# unity-banana
-### Banana, fetch!
+# Navigation project
 
 ![banana](images/banana-init.gif)
 
