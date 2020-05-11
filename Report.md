@@ -1,5 +1,10 @@
 # Report
 
+## Learning Algorithm
+
+Tha learning algorithm used here is implemented closely following the original Deep Q
+Learning paper.
+
 Parameters used in the DQN training funtion:
 
 Max number of steps per episode: 1000

@@ -6,9 +6,9 @@
 
 ## Project Details
 
-The goal is to train an agent to collect as many yellow bananas as possible in a
-limited amount of steps while avoiding the blue ones along the way. The goal is
-to achieve a score of at least `13` in the fewer number of episodes possible.
+The goal here is to train an agent to collect as many yellow bananas as possible in a
+limited amount of steps while avoiding the blue ones along the way. The task, in
+order to solve the environment, is to achieve an average score of `+13` over 100 consecutive episodes.
 
 The following are the details of the environment used in this project.
 
@@ -22,6 +22,9 @@ Unity brain name: BananaBrain
         Vector Action space size (per agent): 4
         Vector Action descriptions: , , ,
 ```
+
+As we can see above the state space is continuous and has 37 dimensions. The
+action space is discrete and has 4 actions available.
 
 
 ## Getting Started
